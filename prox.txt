@@ -1,3 +1,11 @@
+#策略
+static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
+static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
+
+
+
+#分流规则
+#Netflex
 USER-AGENT,Argo*,Net
 DOMAIN-SUFFIX,netflix.com,Netflix
 DOMAIN-SUFFIX,netflix.net,Netflix
@@ -9,3 +17,6 @@ DOMAIN-SUFFIX,nflxvideo.net,Netflix
 DOMAIN-KEYWORD,netflixdnstest,Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+
+
+
