@@ -1,4 +1,5 @@
 #策略
+[policy]
 static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
 static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
 
