@@ -20,7 +20,7 @@ static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.c
 static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
 static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
 static=China, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/China.png
-url-latency-benchmark=YouTube, PROXY, check-interval=600, tolerance=0, alive-checking=false，img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/YouTube.png
+url-latency-benchmark=YouTube, server-tag-regex=香港, check-interval=600, tolerance=0, alive-checking=false，img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/YouTube.png
 
 
 [server_remote]
