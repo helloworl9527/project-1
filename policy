@@ -32,6 +32,7 @@ https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/AI_Platforms_qx.l
 [rewrite_remote]
 
 [server_local]
+shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=无用节点1
 
 [filter_local]
 geoip, cn, direct
