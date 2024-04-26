@@ -23,7 +23,6 @@ static=🐭 Bilbil, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Z
 
 
 [server_remote]
-https://starlinkcloud.club/api/v1/client/subscribe?token=fa563745e89e8ecacbed6904eb422566, tag=Tag-1714141327, update-interval=172800, opt-parser=false, enabled=true
 
 [filter_remote]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=🎥 Netflix, force-policy=🎥 Netflix, enabled=true
