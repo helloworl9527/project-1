@@ -1,4 +1,4 @@
-# YouTube部分
+# YouTube部分 规则来源 https://github.com/sve1r/Rules-For-Quantumult-X/blob/main/Rules/Media/Foreign/YouTube.list
 //请注意，导入此规则将自动创建名为[YouTube]的策略组
 #user-agent,com.google.ios.youtube*,YouTube
 #user-agent,YouTube*,YouTube
