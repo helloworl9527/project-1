@@ -33,8 +33,7 @@ https://raw.githubusercontent.com/helloworl9527/project-1/main/rules/YouTube.lis
 
 [rewrite_remote]
 
-[server_local]
-shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=测试
+
 
 [filter_local]
 geoip, cn, China
