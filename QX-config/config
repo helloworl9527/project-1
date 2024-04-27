@@ -16,9 +16,9 @@ address=/raw.githubusercontent.com/185.199.110.133
 
 
 [policy]
-static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/AI%20Platforms.png
-static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
-static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
+static=🤖 AI Platforms, server-tag-regex=美国, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/AI%20Platforms.png
+static=🎥 Netflix, server-tag-regex=香港, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
+static=🐭 Disney+, server-tag-regex=新加坡, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
 static=China, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/China.png
 url-latency-benchmark=YouTube, server-tag-regex=香港, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/YouTube.png
 
