@@ -29,7 +29,7 @@ def askURL(baseurl):
     head = {  # 模拟浏览器头部信息，向豆瓣服务器发送消息 伪装用的
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36"
     }
-    # 用户代理表示告诉豆瓣服务器我们是什么类型的机器--浏览器  本质是告诉浏览器我们可以接受什么水平的文件内容
+    # 用户代理表示告诉目标服务器我们是什么类型的机器--浏览器  本质是告诉浏览器我们可以接受什么水平的文件内容
     request = urllib.request.Request(baseurl, headers=head)  # 携带头部信息访问url
     # 用request对象访问
     html = ""
@@ -61,8 +61,10 @@ def getData(baseurl):
         url3 = re.findall(pattern2,result)
         # print("url3",url3)
         datalist.append(url3)
-    filtered_list = [x for x in datalist if x]
+    # 列表推导式遍历datalist中每个元素如果元素非空则将x添加到新的列表filtered_list中
+    filtered_list = [x for x in datalist if x] 
     # print("datalist",filtered_list)
     return filtered_list
 if __name__ == "__main__":
     main()
+    # 是检查这个文件是不是直接运行的。如果是，那么就执行 main() 函数；如果不是，那么就跳过 main() 函数
