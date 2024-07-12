@@ -30,7 +30,7 @@ url-latency-benchmark=YouTube, server-tag-regex=香港, check-interval=600, tole
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=🎥 Netflix, force-policy=🎥 Netflix, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=🐭 Disney+, force-policy=🐭 Disney+, enabled=true
 https://raw.githubusercontent.com/helloworl9527/project-1/main/QX-config/rules/amazon.list, tag=Prime_Video , force-policy=Prime_Video, enabled=true
-https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/AI_Platforms_qx.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
+https://raw.githubusercontent.com/helloworl9527/project-1/main/QX-config/rules/AI%20platform, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
 https://raw.githubusercontent.com/helloworl9527/project-1/main/rules/YouTube.list, tag=YouTube, force-policy=YouTube, enabled=true
 
 [rewrite_remote]
